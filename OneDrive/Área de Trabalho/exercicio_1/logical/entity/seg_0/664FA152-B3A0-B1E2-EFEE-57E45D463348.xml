@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="664FA152-B3A0-B1E2-EFEE-57E45D463348" name="ALUNO">
+<createdBy>reina</createdBy>
+<createdTime>2023-03-17 11:53:01 UTC</createdTime>
+<ownerDesignName>exercicio_1</ownerDesignName>
+<engineerTo>
+<item key="4A182E2E-A774-B3D5-8367-92B79EB377CA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_aluno" id="4959F5CF-F268-5FCC-674C-8276E88AAEDF">
+<createdBy>reina</createdBy>
+<createdTime>2023-03-17 11:53:37 UTC</createdTime>
+<ownerDesignName>exercicio_1</ownerDesignName>
+<engineerTo>
+<item key="4A182E2E-A774-B3D5-8367-92B79EB377CA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="944926B6-004A-37A0-2E87-C695E4EA4036">
+<createdBy>reina</createdBy>
+<createdTime>2023-03-17 11:53:56 UTC</createdTime>
+<ownerDesignName>exercicio_1</ownerDesignName>
+<engineerTo>
+<item key="4A182E2E-A774-B3D5-8367-92B79EB377CA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereco" id="27707F46-E848-5C85-C4F5-D610EF32769C">
+<createdBy>reina</createdBy>
+<createdTime>2023-03-17 11:54:10 UTC</createdTime>
+<ownerDesignName>exercicio_1</ownerDesignName>
+<engineerTo>
+<item key="4A182E2E-A774-B3D5-8367-92B79EB377CA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="EFC41903-468E-A510-FC28-A87FE3E7D6AD">
+<createdBy>reina</createdBy>
+<createdTime>2023-03-17 11:54:22 UTC</createdTime>
+<ownerDesignName>exercicio_1</ownerDesignName>
+<engineerTo>
+<item key="4A182E2E-A774-B3D5-8367-92B79EB377CA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BB31AD74-D769-F13B-4064-EC119862D8FC" name="ALUNO PK">
+<createdBy>reina</createdBy>
+<createdTime>2023-03-17 11:53:51 UTC</createdTime>
+<ownerDesignName>exercicio_1</ownerDesignName>
+<engineerTo>
+<item key="4A182E2E-A774-B3D5-8367-92B79EB377CA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4959F5CF-F268-5FCC-674C-8276E88AAEDF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

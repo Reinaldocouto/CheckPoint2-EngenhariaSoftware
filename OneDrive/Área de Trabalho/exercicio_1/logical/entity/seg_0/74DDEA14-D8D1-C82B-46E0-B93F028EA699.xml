@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="74DDEA14-D8D1-C82B-46E0-B93F028EA699" name="CURSOS">
+<createdBy>reina</createdBy>
+<createdTime>2023-03-17 11:44:39 UTC</createdTime>
+<ownerDesignName>exercicio_1</ownerDesignName>
+<engineerTo>
+<item key="4A182E2E-A774-B3D5-8367-92B79EB377CA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_curso" id="ADEA0839-BB48-5355-DDBE-8771036A9D69">
+<createdBy>reina</createdBy>
+<createdTime>2023-03-17 11:45:30 UTC</createdTime>
+<ownerDesignName>exercicio_1</ownerDesignName>
+<engineerTo>
+<item key="4A182E2E-A774-B3D5-8367-92B79EB377CA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="78832D10-94EE-E394-322D-5CBFB8A6CB6B">
+<createdBy>reina</createdBy>
+<createdTime>2023-03-17 11:46:23 UTC</createdTime>
+<ownerDesignName>exercicio_1</ownerDesignName>
+<engineerTo>
+<item key="4A182E2E-A774-B3D5-8367-92B79EB377CA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precos" id="C601EEEB-B881-A23B-82BC-CF5F449BE373">
+<createdBy>reina</createdBy>
+<createdTime>2023-03-17 11:46:48 UTC</createdTime>
+<ownerDesignName>exercicio_1</ownerDesignName>
+<engineerTo>
+<item key="4A182E2E-A774-B3D5-8367-92B79EB377CA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="duracao" id="58368A79-F81C-6DE7-8A92-0E9AD64853F0">
+<createdBy>reina</createdBy>
+<createdTime>2023-03-17 11:47:19 UTC</createdTime>
+<ownerDesignName>exercicio_1</ownerDesignName>
+<engineerTo>
+<item key="4A182E2E-A774-B3D5-8367-92B79EB377CA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E41DBAB7-C096-9AEB-0FA4-845F472EDE6D" name="CURSOS PK">
+<createdBy>reina</createdBy>
+<createdTime>2023-03-17 11:46:16 UTC</createdTime>
+<ownerDesignName>exercicio_1</ownerDesignName>
+<engineerTo>
+<item key="4A182E2E-A774-B3D5-8367-92B79EB377CA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ADEA0839-BB48-5355-DDBE-8771036A9D69</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
