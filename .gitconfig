@@ -1,0 +1,10 @@
+[core]
+	editor = \"C:\\Users\\reina\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code\" --wait
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[user]
+	name = Reinaldo Couto
+	email = 43384617+Reinaldocouto@users.noreply.github.com

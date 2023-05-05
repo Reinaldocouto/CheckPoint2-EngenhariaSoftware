@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="301186BC-FBA2-64B9-D717-0A1D7E79650E" name="LIVROS">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-03-22 12:28:34 UTC</createdTime>
+<ownerDesignName>exercicio5</ownerDesignName>
+<engineerTo>
+<item key="D5E86311-CA4C-D54D-7F0B-BCB18B051709" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_livro" id="96BF7336-E0EB-5FE1-2748-128690D9ABC5">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-03-22 12:28:45 UTC</createdTime>
+<ownerDesignName>exercicio5</ownerDesignName>
+<engineerTo>
+<item key="D5E86311-CA4C-D54D-7F0B-BCB18B051709" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="titulo" id="C42B2F01-BED3-6074-AF1E-528AA0375526">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-03-22 12:28:49 UTC</createdTime>
+<ownerDesignName>exercicio5</ownerDesignName>
+<engineerTo>
+<item key="D5E86311-CA4C-D54D-7F0B-BCB18B051709" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qtd" id="9F3B1BC9-EA11-95CA-4570-ED2BB7B7DA41">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-03-22 12:28:53 UTC</createdTime>
+<ownerDesignName>exercicio5</ownerDesignName>
+<engineerTo>
+<item key="D5E86311-CA4C-D54D-7F0B-BCB18B051709" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CE921BAA-9C4B-C74D-94D9-C1E0D89C4E72" name="LIVROS PK">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-03-22 12:28:48 UTC</createdTime>
+<ownerDesignName>exercicio5</ownerDesignName>
+<engineerTo>
+<item key="D5E86311-CA4C-D54D-7F0B-BCB18B051709" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>96BF7336-E0EB-5FE1-2748-128690D9ABC5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
